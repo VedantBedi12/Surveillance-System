@@ -1,0 +1,7 @@
+ultralytics
+facenet-pytorch
+torch
+numpy
+pillow
+faiss-cpu
+opencv-python
