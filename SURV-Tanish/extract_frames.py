@@ -33,7 +33,7 @@ def extract_frames(video):
         bboxes = []
         scores = []
 
-        results = model.predict(frame_array, stream=True)
+        results = model.predict(frame_array, stream=True,verbose=False)
         for result in results:
             boxes = result.boxes
             if boxes is not None:
