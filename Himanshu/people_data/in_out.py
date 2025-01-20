@@ -6,9 +6,9 @@ import numpy as np
 import ast
 
 
-out = open('/Users/prince_13/Documents/projects/try/bakwass/final_/main/out1.txt', 'w')
-sys.stdout = out
-sys.stderr = out
+# out = open('/Users/prince_13/Documents/projects/try/bakwass/final_/main/out1.txt', 'w')
+# sys.stdout = out
+# sys.stderr = out
 with open('/Users/prince_13/Documents/projects/try/bakwass/final_/faces_input/common_encodings.pkl', 'rb') as f:
         data = pickle.load(f)
         known_names = [item['name'] for item in data]
