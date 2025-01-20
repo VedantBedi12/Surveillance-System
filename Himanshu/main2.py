@@ -130,7 +130,7 @@ while True:
         writer = csv.writer(f)
         writer.writerow(presence_list)
     record()
-    cv2.imshow('frame', frame)
+    # cv2.imshow('frame', frame)
     # print('3',time.time()-t)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         with open('people_data/in_out_present_status.csv','w') as f:
