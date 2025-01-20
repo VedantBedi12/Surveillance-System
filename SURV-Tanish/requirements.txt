@@ -1,0 +1,9 @@
+facenet_pytorch
+opencv-python
+opencv-python-headless
+av
+Ultralytics
+deep_sort_realtime
+pymongo[srv]
+certifi
+faiss-cpu
