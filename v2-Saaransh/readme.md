@@ -78,12 +78,14 @@ NOTE: This uses a modified version of InsightFace library. Please refer to [this
   - `depth_anything_v2_vits.pth`
 
 ### Directory Structure
-project/ 
-├── faces/ # Face database images 
-├── yolo11n.pt
-├── depth_anything_v2_vits.pth
-├── depth_anything_v2_vitl.pth
+```
+project/   
+├── faces/ # Face database images  
+├── yolo11n.pt  
+├── depth_anything_v2_vits.pth  
+├── depth_anything_v2_vitl.pth  
 └── person_tracking.csv
+```
 
 
 ## Output Files
