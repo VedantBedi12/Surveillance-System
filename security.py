@@ -250,13 +250,6 @@ class SURV3:
                 print("No index specified for removal.")
         else:
             print("Invalid mode. Choose 'feed', 'infer', 'webcam_infer', 'clear', or 'remove'.")
-# Example usage of SURV3 class with hardcoded image paths
-surv3_instance = SURV3(yolo_model_path='yolov8n-face.pt')
 
-# List of image paths
-image_paths = ['faces/owner.jpg','faces/nitin.jpg','faces/vedant.jpg']
-
-# Feed these images into the FAISS index
-surv3_instance.pipeline(mode='webcam_infer')
 
                                             
